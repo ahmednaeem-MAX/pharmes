@@ -12,7 +12,7 @@
                   
                         <button class="btn"  id="doaa">أدوية</button>
                         <button class="btn" id="show">أضافة دواء</button>
-                         <button class="btn" id="ama">عملاء</button>
+                
                     
                       </div>
                 
@@ -22,7 +22,7 @@
 
       
 <!-- CARD -->
-    <div style="margin-top:130px;" class="crud" id="crud">
+    <div style="margin-top:30px;" class="crud" id="crud">
         <div  class="head">
 </div>
         <div  id="inputs"  class="inputs" style="display: none;" >
@@ -74,59 +74,6 @@
 </div>
 <!--// CARD //-->
 
-
-<!-- AMALA -->
-<div class="amala" id="amala">
-    <div class="head">
-</div>
-    <div class="inputs-ama" id="inputs-ama">
-        <input placeholder="الأسم" type="text" id="title">
-        <div class="price">
-            <input onkeyup="getTotal()" placeholder="الأسم" type="text" id="price">
-            <input onkeyup="getTotal()" placeholder="العنوان" type="text" id="taxes">
-            <input style="display: none;" onkeyup="getTotal()" placeholder="" type="text" id="ads">
-            <input style="display: none;" onkeyup="getTotal()" placeholder="الأستعمال" type="text" id="descount">
-        </div>
-        <input style="display: none;" placeholder="عدد الطبع" type="number" id="count">
-
-        <input style="display: none;" placeholder="الفئة" type="text" id="category">
-        <button id="submit">أنشاء</button>
-</div>
-
-<div class="outputs" id="ser">
-<div class="SearchBlock">
-<input  style="width: 90%; margin-right:100px;" onkeyup="searchData(this.value)" type="text" placeholder="البحث" id="search" >
-<div class="btnSearch">
-
-<button style="width: 100%;" onclick="getSearchMood(this.id)" id="searchTitle">البحث بالأسم</button>
-<button style="display: none;" onclick="getSearchMood(this.id)" id="searchCategory">البحث بالوصف</button>
-</div>
-
-</div>
-
-
-<div id="deleteAll"></div>
-
-<table>
-<tr>
-    <th>id</th>
-    <th>الأسم</th>
-    <th >العنوان</th>
-    <th style="display: none;">العدد</th>
-    <th style="display: none;">المكان</th>
-    <th style="display: none;">الأستعمال</th>
-    <th style="display: none;">الفئة</th>
-    <th>تعديل</th>
-    <th>حذف</th>
-</tr>
-
-<tbody id="tbody">
-
-</tbody>
-</table>
-</div>
-</div>
-<!--// AMA //-->
 
 
 
