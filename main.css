@@ -17,7 +17,7 @@ direction: rtl;
     width: 80%;
     margin: auto;
     display: block;
-    margin-top: 90px;
+  
 
 }
 
@@ -163,6 +163,43 @@ th,td{
         }
 
       @media screen and (max-width:769px){
-        body{background: red;
+        .container{
+          margin-top: 90px;
         }
+
+        table{
+          width: 100%;
+          text-align: center;
+          margin: 1px 0;
       }
+      
+      table  th{
+          text-transform: uppercase;
+      
+      }
+      
+      
+      th,td{
+          padding: 4px;
+      }
+      
+      
+      .crud-ama{
+        width: 80%;
+        margin: auto;
+        display: none;
+        margin-top: 20px;
+     
+    }
+    
+    .inputs-ama #price{
+    margin-top: 40px;
+    margin-right: 10px;
+    width: 300px;
+    }
+      
+      }
+
+
+
+
